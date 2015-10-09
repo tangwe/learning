@@ -66,4 +66,18 @@
 
     $ git remote add origin https://github.com/tangwe/learning.git
 
-- ****
+- **从远程仓库抓取数据**
+
+远程仓库中拉取所有本地仓库中还没有的数据,在本地访问该远程仓库中的所有分支，将其中某个分支合并到本地，或者只是取出某个分支
+
+    $ git ftech
+
+自动抓取数据下来，然后将远端分支自动合并到本地仓库中当前分支
+
+	$ git pull
+
+- **推送数据到远程仓库**
+
+将本地仓库中的数据推送到远程仓库
+
+    $ git push origin master
